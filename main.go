@@ -65,7 +65,7 @@ func main() {
 
 	app := &cli.App{
 		Name:  "paddler",
-		Usage: "llama.cpp load balaner and reverse proxy server",
+		Usage: "llama.cpp load balancer and reverse proxy server",
 		Commands: []*cli.Command{
 			{
 				Name:   "agent",
